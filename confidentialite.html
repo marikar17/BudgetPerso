@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité — Budget Personnel</title>
+<style>
+  body { font-family: "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.2em; margin-top: 1.6em; }
+</style>
+</head>
+<body>
+<h1>Règles de confidentialité</h1>
+<p>Ces règles s'appliquent à l'application Budget Personnel (Windows et Android).</p>
+
+<h2>Données utilisées</h2>
+<p>Les données de budget saisies dans l'application sont enregistrées dans un fichier
+<code>budget.db</code> sur l'appareil de l'utilisateur.</p>
+<p>Si l'utilisateur active la synchronisation Google Drive, l'application demande uniquement
+l'autorisation <code>drive.file</code>. Elle accède seulement aux fichiers qu'elle a elle-même
+créés (le dossier <code>BudgetPersonnel</code> et le fichier <code>budget.db</code>), jamais aux
+autres fichiers du Drive. Elle lit aussi l'adresse e-mail du compte connecté, pour l'afficher
+dans ses paramètres.</p>
+
+<h2>Partage des données</h2>
+<p>Aucune donnée n'est transmise au développeur ni à un tiers. Les échanges ont lieu
+directement entre l'appareil de l'utilisateur et son propre compte Google Drive. L'application
+n'a ni serveur, ni publicité, ni outil de mesure d'audience.</p>
+
+<h2>Conservation et suppression</h2>
+<p>Le jeton de connexion Google est stocké de manière chiffrée sur l'appareil. L'utilisateur
+peut se déconnecter à tout moment depuis les paramètres de l'application, ce qui révoque
+l'accès et efface ce jeton. Il peut aussi retirer l'accès depuis
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+Le fichier <code>budget.db</code> dans Google Drive reste sous son contrôle : il peut le
+supprimer à tout moment.</p>
+
+<h2>Utilisation des données Google</h2>
+<p>L'utilisation des informations reçues des API Google respecte les
+<a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives
+aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation
+limitée.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question, écrire à l'adresse d'assistance indiquée sur l'écran de connexion Google.</p>
+</body>
+</html>
